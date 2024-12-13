@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: aqua;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: turquoise;
+        }
+
+        a:hover {
+            color: turquoise;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: #008080;
+        }
+
+        a::after {
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: blue;
+        }
+
+        .especial {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li>
+            <a href="https://www.linkedin.com/in/lucas-teodoro-henrique-bb22161b9/" target="_blank">Meu LinkedIn</a>
+        </li>
+        <li>
+            <a href="https://wa.me/19989525146" target="_blank" class="especial">WhatsApp</a>
+        </li>
+        <li>
+            <a href="https://instagram.com/_lusgo" target="_blank" class="especial">Instagram</a>
+        </li>
+    </ul>
+</body>
+</html>
